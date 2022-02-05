@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <filter id="Ellipse_319" x="0" y="0" width="65" height="65" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="OFF" transform="translate(18 19)">
+    <g transform="matrix(1, 0, 0, 1, -18, -19)" filter="url(#Ellipse_319)">
+      <circle id="Ellipse_319-2" data-name="Ellipse 319" cx="17.5" cy="17.5" r="17.5" transform="translate(12 12)" fill="#fff"/>
+    </g>
+    <g id="ICON_volume_max_sound" data-name="ICON volume, max, sound" transform="translate(3 3)">
+      <path id="volume_max_sound" data-name="volume, max, sound" d="M1.773,13.25H4.584l4.422,3.577a.791.791,0,0,0,.822.1.749.749,0,0,0,.445-.679V2.75a.749.749,0,0,0-.445-.68.792.792,0,0,0-.823.1L4.584,5.75H1.773A.762.762,0,0,0,1,6.5v6A.762.762,0,0,0,1.773,13.25Zm.773-6H4.864a.787.787,0,0,0,.495-.173L8.727,4.351v10.3L5.358,11.923a.787.787,0,0,0-.495-.173H2.545ZM18,9.5a.762.762,0,0,1-.773.75H14.136a.75.75,0,1,1,0-1.5h3.091A.762.762,0,0,1,18,9.5ZM16.228,4.03l-3.091,3a.789.789,0,0,1-1.093,0,.735.735,0,0,1,0-1.061l3.091-3a.789.789,0,0,1,1.093,0,.735.735,0,0,1,0,1.061Zm-3.091,7.94,3.091,3a.734.734,0,0,1,0,1.061.789.789,0,0,1-1.093,0l-3.091-3a.734.734,0,0,1,0-1.061.789.789,0,0,1,1.093,0Z" transform="translate(-1 -1.999)" fill="#2d14f1"/>
+    </g>
+  </g>
+</svg>

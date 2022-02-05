@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <filter id="Ellipse_126" x="0" y="0" width="65" height="65" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="fleche_gauche" data-name="fleche gauche" transform="translate(58 12)">
+    <g transform="matrix(1, 0, 0, 1, -58, -12)" filter="url(#Ellipse_126)">
+      <circle id="Ellipse_126-2" data-name="Ellipse 126" cx="17.5" cy="17.5" r="17.5" transform="translate(12 12)" fill="#fff"/>
+    </g>
+    <path id="ICON_previous_back" data-name="ICON previous, back" d="M6.819,12.473,18.381,20.18a.963.963,0,0,0,1.5-.8V3.963a.963.963,0,0,0-1.5-.8L6.819,10.87a.963.963,0,0,0,0,1.6ZM17.952,5.764V17.578L9.088,11.671ZM3.5,17.452V5.89a.963.963,0,1,1,1.927,0V17.452a.963.963,0,1,1-1.927,0Z" transform="translate(-40.971 5.945)" fill="#d1d1d1"/>
+  </g>
+</svg>

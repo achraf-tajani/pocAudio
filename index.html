@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="au-container">
+        <div class="au-wrap-up">
+            <!-- bloc plage title -->
+            <div class="au-title">
+                <span class="au-t1">OH GUITARE, GUITARE</span>
+                <span class="au-t2">Ma maison, ma maison</span>
+            </div>
+            <!-- plages -->
+            <div class="au-liste-plage">
+                <!-- bloc plage title -->
+                <div class="au-plage-title">
+                    <span class="au-icon1">
+                        <img src="assets/img/ICON playlist, play, list, queue.svg" alt="">
+                    </span>
+                    <span class="au-t3-link">
+                        Afficher la liste des plages
+                    </span>
+                </div>
+                <!-- bloc plage wrap -->
+                <!-- ...  -->
+                <!-- ...  -->
+                <!-- ...  -->
+            </div>
+        </div>
+        <div class="au-lecteur-container">
+            <!-- bloc a l'ecoute -->
+            <div class="au-en-ecoute">
+                <div class="au-ecoute-header">
+                    <span class="au-green"></span>
+                    <span class="au-ecoute-title">
+                        À L'ÉCOUTE
+                    </span>
+                    <span class="au-diammand">
+                        <img src="assets/img/Diamond.svg" alt="">
+                    </span>
+                </div>
+                <div class="au-ecoute-body">
+                    <div class="au-disc">
+                        <img src="assets/img/Ellipse 316.svg" />
+                    </div>
+                    <div class="au-face">Face A</div>
+                    <div class="au-face-title">
+                        Ma maison, ma maison
+                    </div>
+                    <div class="au-faces">
+                        <div class="au-faces-wrap au-face-a">
+                            <span class="au-green au-eu"></span>
+                            <img src="assets/img/disk.svg" alt="">
+                            <span class="au-f">A</span>
+                        </div>
+
+                        <div class="au-faces-wrap au-face-b">
+                            <span class="au-green-n"></span>
+                            <img src="assets/img/disk.svg" alt="">
+                            <span class="au-f">B</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="au-lecteur-wrap">
+                <!-- bloc a waves -->
+                <div class="au-lecteur">
+                    <div id="waveRegion"></div>
+                    <div class="au-progres">
+                        <div class="au-progres__bar"></div>
+                        <div class="au-progres_tri">
+                            <span class="au-triangle"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="au-cotroller-container">
+                    <div class="au-controller-btn">
+                        <button class="au-reset au-btns1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16.379" height="17.343"
+                                viewBox="0 0 16.379 17.343">
+                                <path id="ICON_previous_back" data-name="ICON previous, back"
+                                    d="M6.819,12.473,18.381,20.18a.963.963,0,0,0,1.5-.8V3.963a.963.963,0,0,0-1.5-.8L6.819,10.87a.963.963,0,0,0,0,1.6ZM17.952,5.764V17.578L9.088,11.671ZM3.5,17.452V5.89a.963.963,0,1,1,1.927,0V17.452a.963.963,0,1,1-1.927,0Z"
+                                    transform="translate(-3.5 -3)" fill="#2914F7" />
+                            </svg>
+
+                        </button>
+                        <button class="au-reset au-btns1">
+                            <img src="assets/img/ICON -30s.svg" alt="">
+                        </button>
+                        <button class="au-reset au-btns2" id="playPause">
+                            <img src="assets/img/play, media, playing, video.svg" alt="">
+                        </button>
+                        <button class="au-reset au-btns1">
+                            <img src="assets/img/ICON +30s.svg" alt="">
+                        </button>
+                        <button class="au-reset au-btns1">
+                            <img src="assets/img/ICONnextcontinue.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="au-controller-titles">
+                        <div class="au-title">
+                            <span class="au-t1">Adieu, mon pays</span>
+                            <span class="au-t2">
+                                Face A : Ma maison, ma maison
+                            </span>
+                        </div>
+                    </div>
+                    <div class="au-controller-volume">
+                        <button class="au-reset  au-btns1">
+                            <img src="assets/img/ICON volumemaxsound.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"></script>
+    <script src="waves.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 65 65">
+  <defs>
+    <filter id="Ellipse_126" x="0" y="0" width="65" height="65" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="fleche_30s" data-name="fleche +30s" transform="translate(58 12)">
+    <g transform="matrix(1, 0, 0, 1, -58, -12)" filter="url(#Ellipse_126)">
+      <circle id="Ellipse_126-2" data-name="Ellipse 126" cx="17.5" cy="17.5" r="17.5" transform="translate(12 12)" fill="#fff"/>
+    </g>
+    <g id="ICON_30s" data-name="ICON +30s" transform="translate(-29.053 2.627) rotate(30)">
+      <path id="Tracé_1730" data-name="Tracé 1730" d="M1.078,0A1.072,1.072,0,0,0,.317,1.833L3.855,5.361,1.389,7.816A1.077,1.077,0,0,0,2.912,9.339L6.128,6.122a1.072,1.072,0,0,0,0-1.522L1.84.311A1.072,1.072,0,0,0,1.078,0Z" transform="translate(8.571 0)" fill="#2d14f1"/>
+      <path id="Tracé_1731" data-name="Tracé 1731" d="M8.577,0a8.577,8.577,0,1,0,8.577,8.577,1.072,1.072,0,1,0-2.144,0A6.433,6.433,0,1,1,8.577,2.144,1.072,1.072,0,0,0,8.577,0Z" transform="translate(0 4.289)" fill="#2d14f1"/>
+    </g>
+  </g>
+</svg>

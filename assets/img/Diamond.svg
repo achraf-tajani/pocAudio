@@ -1,0 +1,8 @@
+<svg id="Diamond" xmlns="http://www.w3.org/2000/svg" width="26.307" height="111.558" viewBox="0 0 26.307 111.558">
+  <path id="Tracé_9414" data-name="Tracé 9414" d="M13.676,0c0,26.094.14,71.14.14,80.9a28.082,28.082,0,0,1-.394,6.014c-.369,2.912-1.074,5.19-4.89,8.073L0,101.432" transform="translate(7.555 5.076)" fill="none" stroke="#b8b8ff" stroke-width="3"/>
+  <g id="Ellipse_313" data-name="Ellipse 313" transform="translate(16.154 0)" fill="#fff" stroke="#b8b8ff" stroke-width="3">
+    <circle cx="5.076" cy="5.076" r="5.076" stroke="none"/>
+    <circle cx="5.076" cy="5.076" r="3.576" fill="none"/>
+  </g>
+  <rect id="Rectangle_3220" data-name="Rectangle 3220" width="15.025" height="7.513" rx="2" transform="translate(0 104.925) rotate(-28)" fill="#b8b8ff"/>
+</svg>

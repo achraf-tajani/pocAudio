@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.au-container {
+    margin-top: 140px;
+    margin-left: 20%;
+    height: 400px;
+    width: 80%;
+    background: url(assets/img/ONDE\ Background.svg) no-repeat;
+    background-position: left 0 top -64px;
+    background-size: cover;
+    position: relative;
+}
+
+.au-wrap-up {
+    padding: 20px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.au-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.au-t1 {
+    font-size: 1.125rem;
+    color: #2c2c2c;
+    font-weight: 900;
+
+}
+
+.au-t2 {
+
+    font-size: 0.875rem;
+    color: #525252;
+
+}
+
+.au-liste-plage {
+    margin-right: 6.25rem;
+    position: relative;
+}
+
+.au-plage-title::before {
+    content: "";
+    position: absolute;
+    left: -1.875rem;
+    top: -0.313rem;
+    display: block;
+    width: 0.063rem;
+    height: 1.875rem;
+    background-color: #525252;
+}
+
+.au-icon1 {}
+
+.au-t3-link {
+    font-size: 1rem;
+    color: #2d14f1;
+    text-decoration: underline;
+    letter-spacing: 0px;
+    margin-left: 1.25rem;
+}
+
+.au-lecteur-container {
+    display: flex;
+}
+
+.au-en-ecoute {
+    width: 208px;
+    height: 334px;
+}
+
+.au-ecoute-header {
+    background: #2C2C2C 0% 0% no-repeat padding-box;
+    border: 1px solid #B8B8FF;
+    border-radius: 10px 10px 0px 0px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.au-green {
+    display: block;
+    width: 7.6px;
+    height: 7.6px;
+    background-color: #14b8b2;
+    border-radius: 50%;
+    margin-right: 6.62px;
+}
+
+.au-ecoute-title {
+    color: #F8F3F7;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.au-diammand {
+
+    transform: translateX(15px) translateY(50px);
+}
+
+.au-ecoute-body {
+    border: 1px solid #B8B8FF;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 12px;
+    background-color: white;
+}
+
+.au-disc {
+    height: 130px;
+    width: 130px;
+    background-color: #F8F3F7;
+}
+
+.au-face {
+    color: #2D14F1;
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 13px;
+}
+
+.au-face-title {
+    color: #2C2C2C;
+    font-size: 14px;
+    margin-top: 3px;
+
+}
+
+.au-faces {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    column-gap: 10px;
+    margin-top: 5px;
+}
+
+.au-faces-wrap {
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #0000004D;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 15px;
+}
+
+.au-faces-wrap img {
+    height: 38px;
+    width: 38px;
+}
+
+.au-faces-wrap span:nth-child(1), .au-faces-wrap .au-f {
+    position: absolute;
+}
+
+.au-faces-wrap span:nth-child(1) {
+    top: 3px;
+    left: 7px;
+}
+
+.au-faces-wrap .au-f {
+    font-size: 1rem;
+    font-weight: 800;
+    bottom: 2px;
+    right: 6px;
+}
+
+.au-face-a .au-f {
+    color: #2914F7;
+}
+
+
+
+.au-face-b .au-f {
+    color: #090433;
+}
+
+.au-face-a {
+    background: #F8F3F7 0% 0% no-repeat padding-box;
+}
+
+.au-face-b {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+
+}
+
+.au-lecteur-wrap {
+    width: 86%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.au-lecteur {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.waveRegionwrap {
+    background-color: red;
+}
+
+#waveRegion {
+    width: 100%;
+}
+
+.au-cotroller-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.au-controller-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    margin-right: 10px;
+}
+
+
+.au-controller-titles {
+    padding: 10px;
+}
+
+
+.au-controller-volume {
+    margin-left: 20px;
+}
+
+
+
+
+.au-btns1 {
+    width: 35px;
+    height: 35px;
+}
+
+.au-btns2 {
+    width: 69px;
+    height: 69px;
+    left: 1px;
+}
+
+.au-btns2 img {
+    position: absolute;
+    transform: translateX(20%);
+}
+
+.au-btn {}
+
+.au-reset:active {
+    transform: translateY(4px);
+}
+
+
+
+.au-progres {
+    margin: 10px auto;
+    width: 100%;
+    height: 5px;
+    background-color: gray;
+    position: relative;
+    border-radius: 12px;
+    display: flex;
+}
+
+.au-progres .au-progres__bar {
+    height: 5px;
+    width: 0%;
+    background-color: blue;
+    border-radius: 12px;
+    margin-left: 1px;
+}
+
+.au-progres .au-progres_tri {
+    width: 0%;
+    position: relative;
+}
+
+.au-triangle {
+    border-right: 9px solid transparent;
+    border-bottom: 15px solid blue;
+    border-left: 9px solid transparent;
+    position: absolute;
+    top: 10px;
+    left: -10px;
+}
+
+
+.au-reset {
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-shadow: 3px 3px 10px #0000004D;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
